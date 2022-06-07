@@ -1,0 +1,27 @@
+h1 {
+    color: gray;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+#cabecera1 {
+    color: red;
+}
+
+.parrafos_morados {
+    color: rgb(0, 168, 252);
+    font-weight: 600;
+    background-color: grey;
+}
+.parrafos_negros {
+    color: black;
+    background-color: gray;
+    color: rgb(0, 168, 252);
+}
+.parrafos_azules {
+    background-color: black;
+    color: rgb(0, 168, 252);
+}

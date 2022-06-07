@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de prioridades</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1 id="cabecera1">PRIORIDAD DE ESTILOS EN CSS:</h1>
+    <hr>
+    <table cellspacing="2" cellpading="10" border="1">
+        <tr>
+            <th class="parrafos_azules">PRIORIDAD</th>
+            <th class="parrafos_azules">NOMBRE</th>
+            <th class="parrafos_azules">SELECTOR</th>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">1</td>
+            <td class="parrafos_morados">!IMPORTANT</td>
+            <td style="font-weight: 600;" class="parrafos_negros">STYLE="COLOR: BLUE;" !IMPORTANT</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">2</td>
+            <td class="parrafos_morados">INLINE CSS</td>
+            <td style="font-weight: 600;" class="parrafos_negros">STYLE="COLOR: BLUE;"</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">3</td>
+            <td class="parrafos_morados">NESTED ID</td>
+            <td style="font-weight: 600;" class="parrafos_negros">H1#ELEMENTO</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">4</td>
+            <td class="parrafos_morados">ID</td>
+            <td style="font-weight: 600;" class="parrafos_negros">#ELEMENT</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">5</td>
+            <td class="parrafos_morados">NESTED CLASS</td>
+            <td style="font-weight: 600;" class="parrafos_negros">H1.ELEMENTO</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">6</td>
+            <td class="parrafos_morados">CLASS</td>
+            <td style="font-weight: 600;" class="parrafos_negros">.ELEMENTO</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 600;" class="parrafos_negros">7</td>
+            <td class="parrafos_morados">HTML ELEMENT</td>
+            <td style="font-weight: 600;" class="parrafos_negros">DEFAULT</td>
+        </tr>
+    </table>
+</body>
+</html>

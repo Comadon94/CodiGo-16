@@ -1,0 +1,75 @@
+h1 {
+    /*font-family: cambiar fuente*/
+    font-family: -apple-system, sans-serif;
+    font-size: 35px;
+    /* ! Importante: No poner unidades de medida al usar font-weidth*/
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+/* * Nota:
+    * 700 = bold
+    * 900 = bolder
+   */
+
+.parrafo {
+    font-family:monospace;
+    /*font-size: manejar el tamaño del texto*/
+    font-size: 50px;
+    /*font-weight: cambiar el peso a la letra*/
+    font-weight: bolder;
+}
+
+.link-a {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Al poner none invalidamos el text-decoration*/
+    text-decoration: none;
+    /* Hexadecimal es una forma de poner colores con 6 numeros*/
+    color: rgb(0, 122, 252);
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    background-color: rgb(0, 122, 252, 0.2);
+}
+
+.span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.span-2 {
+    text-decoration: overline;
+}
+
+.span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.span-4 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.span-5 {
+    text-decoration: overline;
+    background-color: rgb(140, 48, 205);
+    text-decoration-color: aliceblue;
+}
+
+/* lowercase = minusculas
+   uppercase = mayusculas
+   capitalize = primera del text en mayuscula
+   */
+
+.span-6 {
+    color: navy;
+    text-decoration: underline;
+    background-color: darkorange;
+    text-decoration-color: dimgray;
+}
