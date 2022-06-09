@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Tangerine";
+    src: url(../fonts/Tangerine-Bold.ttf);
+}
+
+.parrafos_azules {
+    font-family: "Tangerine";
+    color: darkviolet;
+    font-weight: 600;
+    background-color: orange;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgray;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: "Tapestry";
+    src: url(../fonts/Tapestry-Regular.ttf);
+}
+
+.parrafos_negros {
+    font-family: "Tapestry";
+    color: rgb(5, 123, 207);
+    background-color: black;
+    font-weight: 600;
+}
+
+.parrafos_morados {
+    font-family: "Tapestry";
+    color: rgb(5, 123, 207);
+    background-color: black;
+    font-weight: 600;
+}

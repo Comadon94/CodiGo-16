@@ -1,6 +1,6 @@
 h1 {
     /*font-family: cambiar fuente*/
-    font-family: -apple-system, sans-serif;
+    font-family: 'Yantramanav';
     font-size: 35px;
     /* ! Importante: No poner unidades de medida al usar font-weidth*/
     font-weight: 100;
@@ -13,7 +13,7 @@ h1 {
    */
 
 .parrafo {
-    font-family:monospace;
+    font-family:'Staatliches';
     /*font-size: manejar el tamaño del texto*/
     font-size: 50px;
     /*font-weight: cambiar el peso a la letra*/
@@ -72,4 +72,38 @@ ul {
     text-decoration: underline;
     background-color: darkorange;
     text-decoration-color: dimgray;
+}
+
+/* Para que CSS pueda leer una fuente desde un archivo
+tenemos que @font-face esto nos permoite cargar una fuente externa y ponerle
+un nombre para su uso */
+
+@font-face {
+    /* En este caso font-family es el nombre de la fuente */
+    font-family: "Handlee";
+    /* src= Es el lugar donde esta alojado la fuente */
+    /* .. = Es lo mismo que retroceder una carpeta */
+    src: url(../fonts/Handlee-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Tangerine";
+    src: url(../fonts/Tangerine-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Tapestry";
+    src: url(../fonts/Tapestry-Regular.ttf);
+}
+
+.title-2 {
+    font-family: "Tangerine";
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(51, 255, 0);
+    text-decoration: underline;
+}
+
+.parrafo-2 {
+    font-family: "Tapestry";
 }

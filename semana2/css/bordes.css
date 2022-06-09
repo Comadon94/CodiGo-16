@@ -1,0 +1,95 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em; /* 1.5 x 20 = 30px */
+}
+
+
+
+.solid {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightpink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: chartreuse;
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: indigo;
+}
+
+.border1 {
+    border-style: dotted;
+    border-color: blueviolet;
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: turquoise;
+    font-family: cursive;
+}
+
+.border2 {
+    border-style: double;
+    border-color: darkblue;
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: coral;
+    font-family: sans-serif;
+}
+
+.border3 {
+    border-style: groove;
+    border-color: rgb(22, 141, 22);
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+.border4 {
+    border-style: ridge;
+    border-color: rgb(207, 20, 20);
+    border-width: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+.left_solid {
+ border-left: solid rgb(238, 106, 150) 2px;
+}
+
+.right-dotted {
+    border-right: dotted rgb(170, 0, 255) 3px;
+}
+
+.top-dashed {
+    border-top: dashed 2px gray;
+}
+
+.buttom-double {
+    border-bottom: double 5px red;
+}
+
+.josev {
+    border-style: solid dashed dotted double;
+    border-width: 3px;
+    border-color: black red;
+}
