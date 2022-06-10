@@ -1,0 +1,66 @@
+body {
+    background-color: gray;
+}
+
+#contenedor {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#campos {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+#user {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#user:focus {
+    height: 40px;
+    border: 4px dotted blue;
+}
+
+#user:hover {
+    background-color: rgb(132, 168, 236);
+}
+
+#pass {
+    height:  30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#pass:hover {
+    background-color: rgb(132, 168, 236);
+}
+
+#pass:focus {
+    transform: scale(1.5) translate(20px, 20px);
+}
+
+#submit {
+    height: 30px;
+    width: 90px;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #3b5998;
+    border: #3b5998 dotted;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+#contenedor {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right,red 33%, white 33%, white 66%, red 66%);
+    /* red inicia en 0px irá hasta 50px === 50px */
+    /* yellow inicia en 50px irá hasta 100px === 50px */
+    /* blue inicia en 180px irá hasta 200px === 20px */
+    margin: auto;
+    border-radius: 20%;
+    filter: drop-shadow(-20px -20px 10px black);
+}
+
+#contenedor:hover {
+    background: linear-gradient(to top, red 33%, white 33%, white 66%, red 66%);
+}
+
+h1 {
+    border: 1px black solid ;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: darkblue;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(red, white, red);
+    margin: 60px auto;
+    border-radius: 100px;
+    filter: blur(10px) opacity(0.45)
+}
+
+#circulo:hover {
+    background: none;
+    background-color: blue;
+    filter: none;
+}
+
+.sombra {
+    /* 1 parametro: eje X (default derecha) */
+    /* 2 parametro: eje Y (default abajo) */
+    /* 3 parametro: blur (difuminación) */
+    /* 4 parametro: spread (propagacion) */
+    /* 5 parametro: color */
+    /* box-shadow: 20px 20px 10px -10px yellow; */
+    box-shadow: 20px 20px 10px -10px black;
+}
+
+.sombra_texto {
+    /* 1 parametro: eje X (default derecha) */
+    /* 2 parametro: eje Y (default abajo) */
+    /* 3 parametro: blur (difuminación) */
+    /* 4 parametro: color */
+    /* box-shadow: 20px 20px 10px -10px yellow; */
+    text-shadow: 10px 10px 5px black;
+}

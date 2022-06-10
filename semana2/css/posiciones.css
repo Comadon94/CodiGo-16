@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg {
+    border: solid;
+    height: 200px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-green {
+    background-color: chartreuse;
+}
+
+.bg-img {
+    background: url(../../semana1/images/planet9_Wallpaper_5000x2813.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-img-anime {
+    background: url(../images/dragonball.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
